@@ -1,0 +1,85 @@
+{
+  "name": "Example Candidate (Full-Stack)",
+  "headline": "Full-Stack Engineer \u00b7 Established Companies \u00b7 Civic Tech \u00b7 Remote / Bay Area",
+  "location": "San Francisco, California",
+  "locations": [
+    "San Francisco, California",
+    "Remote, United States"
+  ],
+  "remote_ok": true,
+  "location_keywords": [
+    "remote",
+    "san francisco",
+    "bay area",
+    "south bay",
+    "san jose",
+    "oakland",
+    "berkeley",
+    "san mateo",
+    "palo alto",
+    "mountain view",
+    "sunnyvale",
+    "santa clara",
+    "fremont",
+    "california"
+  ],
+  "current_title": "Full-Stack Engineer",
+  "past_titles": [
+    "Full-Stack Engineer",
+    "Software Engineer",
+    "Frontend Engineer",
+    "Backend Engineer"
+  ],
+  "skills": [
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Python",
+    "PostgreSQL",
+    "REST API",
+    "GraphQL",
+    "HTML",
+    "CSS",
+    "AWS",
+    "Docker",
+    "CI/CD",
+    "testing",
+    "SQL"
+  ],
+  "search_terms": [
+    "full stack engineer",
+    "full-stack engineer",
+    "software engineer full stack"
+  ],
+  "search_all_terms": true,
+  "sources": [
+    "jobspy",
+    "notion-transformer-talent"
+  ],
+  "exclude_startups": true,
+  "exclude_keywords": [
+    "founding",
+    "startup",
+    "stealth"
+  ],
+  "preferred_keywords": [
+    "civic",
+    "government",
+    "public sector",
+    "municipal",
+    "federal",
+    "transportation",
+    "transit",
+    "utilities",
+    "energy",
+    "healthcare",
+    "education",
+    "banking",
+    "insurance",
+    "finance",
+    "manufacturing",
+    "enterprise"
+  ],
+  "min_match_score": 1
+}

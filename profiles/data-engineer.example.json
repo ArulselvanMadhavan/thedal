@@ -1,0 +1,37 @@
+{
+  "name": "Example Candidate (Data Engineer)",
+  "headline": "Data Engineer \u00b7 Pipelines \u00b7 Analytics Platforms",
+  "location": "United States",
+  "current_title": "Data Engineer",
+  "past_titles": [
+    "Data Engineer",
+    "Senior Data Engineer",
+    "Analytics Engineer"
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "Scala",
+    "Spark",
+    "dbt",
+    "Airflow",
+    "Kafka",
+    "ETL",
+    "data pipeline",
+    "data warehouse",
+    "Snowflake",
+    "BigQuery",
+    "Redshift",
+    "Databricks",
+    "PostgreSQL",
+    "AWS",
+    "GCP"
+  ],
+  "search_terms": [
+    "data engineer",
+    "senior data engineer",
+    "staff data engineer",
+    "analytics engineer"
+  ],
+  "search_all_terms": true
+}

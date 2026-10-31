@@ -1,0 +1,21 @@
+# Job source registry — the standardized place to add job sources.
+#
+# Add a board of an existing type (jobspy / notion): add a [[sources]] entry
+# below and list its `name` in a profile's "sources" array. No code needed.
+# Add a new type: write an adapter in job_sources/ and register it in
+# job_sources.ADAPTERS (see job_sources/__init__.py docstring).
+#
+# Profiles that omit "sources" only use the "jobspy" source below.
+
+[[sources]]
+name = "jobspy"
+type = "jobspy"
+# Sites are chosen per run (--sites / cron.toml `sites`), not here.
+
+[[sources]]
+# Public Notion jobs table (Transformer Talent). Startup-heavy board:
+# profiles with "exclude_startups": true filter most of its rows out,
+# which is intentional for the non-startup profiles.
+name = "notion-transformer-talent"
+type = "notion"
+url = "https://pyrite-farmhouse-947.notion.site/2b55dfe3e657804bafa3d2ae46dfd587?v=2b55dfe3e6578187baf4000c46595218"

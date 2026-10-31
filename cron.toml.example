@@ -1,0 +1,29 @@
+# Copy to $THEDAL_STATE_DIR/cron.toml
+# Resend API key: crontab only — scripts/install-jobs-cron.sh
+# jobs.to must be your Resend-verified address (same as elderberry digest.to).
+# Profile email labels the intended recipient; forward manually.
+#
+# Every profile in `profiles` runs separately and gets its own email
+# (subject names the profile). Legacy single `profile = "..."` still works.
+# Personal profiles (real names/emails) must NOT live in this public repo:
+# keep them in $THEDAL_STATE_DIR/profiles/ and list absolute paths to them
+# here, e.g. "/lm/users/you/thedal-state/profiles/someone.json". The paths
+# below are the anonymized in-repo examples.
+# Job sources are standardized in sources.toml (repo root); each profile
+# chooses its sources with its "sources" array.
+
+[jobs]
+enabled = true
+time = "06:00"
+to = "you@example.com"
+profiles = [
+  "profiles/data-engineer.example.json",
+  "profiles/full-stack.example.json",
+  "profiles/applied-math.example.json",
+]
+results = 10
+sites = "indeed,linkedin"
+hours_old = 168
+
+[resend]
+from = "onboarding@resend.dev"

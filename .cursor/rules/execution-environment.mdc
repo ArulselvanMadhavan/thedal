@@ -1,0 +1,28 @@
+---
+description: Shell and Python execution environment for this project
+alwaysApply: true
+---
+
+# Execution Environment
+
+This project uses pyenv. Before running Python, pip, or project scripts in the shell, initialize pyenv:
+
+```bash
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+pyenv init - | source /dev/stdin
+```
+
+Then run commands from the project root so `.python-version` (3.13.13) is picked up.
+
+Example:
+
+```bash
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+pyenv init - | source /dev/stdin
+cd /data/home/arul/dev/thedal
+python search_jobs.py profiles/data-engineer.example.json
+```
+
+Do not use the system Python at `/apps/linux-rhel8/python/venv-3.8.16/bin/python3` for this project.

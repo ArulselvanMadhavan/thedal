@@ -1,0 +1,10 @@
+jobs/
+__pycache__/
+
+# Personal profiles contain real names/email addresses and must never be
+# committed to this (public) repo. Keep them in the private state dir
+# ($THEDAL_STATE_DIR/profiles/, see cron.toml in the state dir) and only
+# commit anonymized *.example.json templates.
+/profiles/*.json
+!/profiles/*.example.json
+cron.toml

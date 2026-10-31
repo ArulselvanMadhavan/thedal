@@ -1,0 +1,106 @@
+{
+  "name": "Example Candidate (Applied Math)",
+  "headline": "Applied Mathematician \u00b7 Optimization \u00b7 Operations Research \u00b7 Remote / Bay Area",
+  "location": "San Francisco, California",
+  "locations": [
+    "San Francisco, California",
+    "Remote, United States"
+  ],
+  "remote_ok": true,
+  "location_keywords": [
+    "remote",
+    "san francisco",
+    "bay area",
+    "south bay",
+    "san jose",
+    "oakland",
+    "berkeley",
+    "san mateo",
+    "palo alto",
+    "mountain view",
+    "sunnyvale",
+    "santa clara",
+    "fremont",
+    "california"
+  ],
+  "current_title": "Applied Mathematician",
+  "past_titles": [
+    "Applied Mathematician",
+    "Optimization Scientist",
+    "Operations Research Scientist",
+    "Research Scientist"
+  ],
+  "skills": [
+    "optimization",
+    "operations research",
+    "linear programming",
+    "mixed-integer programming",
+    "convex optimization",
+    "mathematical modeling",
+    "OR-Tools",
+    "Gurobi",
+    "CPLEX",
+    "Python",
+    "numerical methods",
+    "simulation",
+    "statistics",
+    "scheduling",
+    "supply chain",
+    "SQL"
+  ],
+  "match_keywords": [
+    "optimization",
+    "operations research",
+    "linear programming",
+    "mixed-integer programming",
+    "integer programming",
+    "convex optimization",
+    "mathematical modeling",
+    "OR-Tools",
+    "Gurobi",
+    "CPLEX",
+    "applied mathematician",
+    "optimization scientist",
+    "optimization engineer",
+    "operations research scientist",
+    "scheduling optimization",
+    "supply chain optimization"
+  ],
+  "search_terms": [
+    "applied mathematician optimization",
+    "operations research scientist",
+    "optimization engineer"
+  ],
+  "search_all_terms": true,
+  "sources": [
+    "jobspy",
+    "notion-transformer-talent"
+  ],
+  "exclude_startups": true,
+  "exclude_keywords": [
+    "founding",
+    "startup",
+    "stealth"
+  ],
+  "preferred_keywords": [
+    "civic",
+    "government",
+    "public sector",
+    "municipal",
+    "federal",
+    "transportation",
+    "transit",
+    "utilities",
+    "energy",
+    "grid",
+    "healthcare",
+    "logistics",
+    "supply chain",
+    "manufacturing",
+    "aerospace",
+    "defense",
+    "insurance",
+    "finance"
+  ],
+  "min_match_score": 2
+}
